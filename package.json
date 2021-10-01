@@ -5,6 +5,9 @@
   "repository": "ssh://git@github.com/kobakazu0429/native-file-system-adapter-with-jest.git",
   "author": "kobakazu0429 <kobakazu10@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "test": "jest --silent=false --verbose false"
+  },
   "devDependencies": {
     "@types/jest": "^27.0.2",
     "jest": "^27.2.4",
